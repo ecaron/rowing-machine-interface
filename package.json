@@ -1,0 +1,29 @@
+{
+  "name": "rowing-machine-interface",
+  "version": "1.0.0",
+  "description": "An interface to listen, record & playback data from a rowing machine",
+  "scripts": {
+    "start": "node listener",
+    "lint": "standard --fix"
+  },
+  "main": "app.js",
+  "license": "MIT",
+  "repository": "ecaron/rowing-machine-interface",
+  "engines": {
+    "node": ">=14"
+  },
+  "author": {
+    "name": "Eric Caron",
+    "url": "https://github.com/ecaron"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "serialport": "^10.4.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.0",
+    "draftlog": "^1.0.13",
+    "standard": "^16.0.4"
+  }
+}
