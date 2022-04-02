@@ -9,7 +9,8 @@ This is intended to power apps such as the [Home Rower Game](https://github.com/
 ## Sample Code
 
 Although more complicated examples are in the [demo](demo) directory, a basic application could work like this:
-```
+
+```javascript
 const rower = require('rowing-machine-interface')
 
 const run = async function () {
@@ -42,7 +43,7 @@ The module emits one of two events, with additional information for each:
 * `update`
   * `memory` (The metric that was modifiied)
 
-#### Metrics tracked:
+## Metrics Tracked
 * Distance in meters (as `ms_distance`)
 * Average time for a pull (as `stroke_pull`)
 * Average time for a whole stroke (as `stroke_average`)
